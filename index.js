@@ -8,8 +8,6 @@ for( var i=0; i<NumberofdrumButtons; i++){
 
         buttonAnimation(numberofbuttons)
 
-        
-        
     });
 }
 
@@ -68,57 +66,4 @@ function buttonAnimation(cuurentkey){
     },100);
 }
 
-// //  Engineer is an object which has properties and methods
-// var Engineer = {
-//     // Properties
-//     Name : "vikas bisariya",
-//     Age : 22,
-//     WOrkofhours : "8 hours",
-//     Experience : "No experience",
 
-//     // method
-
-//    viaks : function(){
-//      return ("my name is: " + Engineer.Name +" and "+ "my age is: " + Engineer.Age +" "+"i have "+ Engineer.WOrkofhours + "work everyday with "+ Engineer.Experience);
-//   }
-// };
-
-// // var Engineer;
-// console.log(Engineer.viaks());
-// // console.log( "my name is: " + Engineer.Name +"and"+ "my age is: " + Engineer.Age +" "+"i have "+ Engineer.WOrkofhours + "work everyday with "+ Engineer.Experience);
-
-
-
-// //  Constructor function and initilising object
-
- 
-
-// function Person(name, age){
-//     this.name = name;
-//     this.age = age;
-
-//    this.aboutu = function() {
-//         console.log("my name is " + this.name + "and i am " + this.age +" years old")
-//    };
-// }
-
-
-// const person1 = new Person("viaks",23);
-// person1.aboutu();
-
-// const person2 = new Person("naveen", 4);
-// person2.aboutu();
-
-
-// var Housekeeper = function(name,age){
-//     this.name= name;
-//     this.age = age;
-
-//     this.clean = function(){
-//         alert("cleaning in process");
-//     }
-// }
-
-// const Housekeeper1 = new Housekeeper("viaks",34);
-
-// Housekeeper1.clean();
